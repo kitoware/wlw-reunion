@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "supabase": {
+      "command": "/Users/---/.nvm/versions/node/v22.15.0/bin/npx",
+      "args": [
+        "-y",
+        "@supabase/mcp-server-supabase@latest",
+        "--access-token",
+        "sbp_--------"
+      ],
+      "env": {
+        "PATH": "/Users/---/.nvm/versions/node/v22.15.0/bin:/usr/local/bin:/usr/bin:/bin",
+        "NODE_PATH": "/Users/---/.nvm/versions/node/v22.15.0/lib/node_modules"
+      }
+    }
+  }
+}
