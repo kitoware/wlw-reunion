@@ -107,9 +107,6 @@ export default function ZoomParallaxDemo({ images }: ZoomParallaxDemoProps) {
 						'blur-[30px]',
 					)}
 				/>
-				<h1 className="text-center text-4xl font-bold">
-					Scroll Down for Zoom Parallax
-				</h1>
 			</div>
 			<ZoomParallax images={images && images.length ? images : defaultImages} />
 			<div id="rsvp" className="mt-24 md:mt-48 lg:mt-64 py-12 flex flex-col items-center justify-center bg-black">
